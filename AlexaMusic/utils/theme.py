@@ -14,7 +14,7 @@ import random
 from AlexaMusic.utils.database import get_theme
 
 themes = [
-    "kaithumb"
+    "kaithumb (1)"
 ]
 
 
