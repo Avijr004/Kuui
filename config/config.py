@@ -23,7 +23,10 @@ API_HASH = getenv("API_HASH", "76a9e84e87200fb7311a2d779a42d13a")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6304965897:AAH2Gf32vjq_z_8XTruHQc-QtRjxllKgRKg")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Foxie:Foxie123@cluster0.cwd1kc5.mongodb.net/Cluster0?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv(
+    "MONGO_DB_URI",
+    "mongodb+srv://Foxie:Foxie123@cluster0.cwd1kc5.mongodb.net/Cluster0?retryWrites=true&w=majority",
+)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
@@ -86,7 +89,10 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQHIVlYAlMxFnknM3rkOWJRM-rYoBmQBchyB6oRZxdXVvwqTjhRiniLXSHYA8yJO3MH5YfUKIdwAlUwCpAy_d0D00lYDvtxDLpmOkalvs4XTRA2xUypUhGbtdqD5pkw0TzynwnksZDS4z3b7kO4X17DrpElVK6YbaR_mCSvduLQUUt5geAmHyj_qqmNB0PvCldaalPB-6cYcth8UHeftk4r_Mz0jpQJzBQqnlNzrteFy0Sus5QhfDVjYhMEp4yLK74l8sXNRRZEQRyBj0m2kSbN5Zf-4jQ88tO1hq9ZNHs1tbloBxWO7n7yMmnlomtg2jhmm4rjfqCghPpBnx9Z8Jf376NEwZgAAAAFt-yL1AA")
+STRING1 = getenv(
+    "STRING_SESSION",
+    "BQHIVlYAlMxFnknM3rkOWJRM-rYoBmQBchyB6oRZxdXVvwqTjhRiniLXSHYA8yJO3MH5YfUKIdwAlUwCpAy_d0D00lYDvtxDLpmOkalvs4XTRA2xUypUhGbtdqD5pkw0TzynwnksZDS4z3b7kO4X17DrpElVK6YbaR_mCSvduLQUUt5geAmHyj_qqmNB0PvCldaalPB-6cYcth8UHeftk4r_Mz0jpQJzBQqnlNzrteFy0Sus5QhfDVjYhMEp4yLK74l8sXNRRZEQRyBj0m2kSbN5Zf-4jQ88tO1hq9ZNHs1tbloBxWO7n7yMmnlomtg2jhmm4rjfqCghPpBnx9Z8Jf376NEwZgAAAAFt-yL1AA",
+)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
